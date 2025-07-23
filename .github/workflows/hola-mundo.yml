@@ -9,7 +9,7 @@ on:
 
 jobs:
   saludar:
-    runs-on: ubuntu-latest
+    runs-on: mi-primer-ci-cd-runner
     steps:
     - name: 📥 Descargar código
       uses: actions/checkout@v4

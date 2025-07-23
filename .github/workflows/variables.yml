@@ -8,7 +8,7 @@ env:
 
 jobs:
   mostrar:
-    runs-on: ubuntu-latest
+    runs-on: mi-primer-ci-cd-runner
     env:
       RESPONSABLE: "Estudiante DevOps"
     steps:
